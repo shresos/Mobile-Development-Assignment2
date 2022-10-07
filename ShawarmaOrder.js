@@ -187,7 +187,7 @@ module.exports = class ShwarmaOrder extends Order {
             sInput.purchase_units[0].shipping.address.address_line_1
           }, ${sInput.purchase_units[0].shipping.address.admin_area_2}, ${
             sInput.purchase_units[0].shipping.address.admin_area_1
-          },${sInput.purchase_units[0].shipping.address.postal_code},${
+          }, ${sInput.purchase_units[0].shipping.address.postal_code}, ${
             sInput.purchase_units[0].shipping.address.country_code
           } `
         );
